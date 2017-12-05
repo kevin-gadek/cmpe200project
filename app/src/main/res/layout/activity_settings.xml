@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proj.cmpe200.sjsu.weatherapp.activities.SettingsActivity">
+
+    <Switch
+        android:id="@+id/a_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Temperature Units"
+        android:textOn="F"
+        android:textOff="C"
+        android:textSize="15sp"
+        android:showText="true"
+        android:paddingTop="50dp"
+        android:switchTextAppearance="@style/SwitchTextAppearance"
+        android:switchMinWidth="50dp"
+        android:switchPadding="20dp"
+        android:thumbTextPadding="20dp"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"/>
+
+
+</RelativeLayout>
